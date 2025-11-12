@@ -7,10 +7,7 @@ using System.Threading.Tasks;
 namespace FizzBuzz
 {
     public class FizzBuzzService
-
-    // fizzbuzz som skriver ut fizz på tal som kan delas på 3, buzz för 5 och fizzbuzz för 15
     {
-
         public List<string> GetFizzBuzzResult()
         {
             List<string> result = new List<string>();
@@ -41,13 +38,11 @@ namespace FizzBuzz
         public string Fizz()
         {
             return "Fizz";
-
         }
 
         public string Buzz()
         {
             return "Buzz";
-
         }
 
         public string FizzBuzz()
