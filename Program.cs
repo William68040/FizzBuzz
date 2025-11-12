@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            int number = 0;
+            FizzBuzzService fizzBuzzService = new FizzBuzzService();
+            var results = fizzBuzzService.GetFizzBuzzResult();
+            foreach (var result in results)
+            {
+                Console.WriteLine(result);
+            }
+
         }
     }
 }
